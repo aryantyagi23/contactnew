@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html>  
+ <head>  
+<title>contact</title>  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+  #col_3{background-color: #a23131;}
+  #col_2{background-color:#fd5f00;}
+  #col_1{background-color:#4e4e4e;}
+  #black{background-color:#333333;}
+
+  h2{color:#fff;
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:15px;}
+  p{margin-left:25px;
+    margin-right:25px;
+    color:#999999 ;
+   font-family: "Oswald", arial, sans-serif;}
+  #col_border{border:2px solid #999999 ;
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-right: 15px;
+    margin-left: 15px;}
+  body{background-color:#34495E ;}
+  h4{margin-top: 30px;
+   font-family: "Oswald", arial, sans-serif;
+  color:white;}
+  #navbrand{ font-size: 30px; 
+              color: orange;
+
+  }
+  label{ font font-size: 20px ;}
+
+  #home{color:orange;
+    font-family: "Oswald", arial, sans-serif;
+   }
+  #polio{color:orange;
+   font-family: "Oswald", arial, sans-serif;}
+  #blog{color:orange;
+   font-family: "Oswald", arial, sans-serif;}
+  #contact{color:orange;
+   font-family: "Oswald", arial, sans-serif;}
+  #about{color:orange;
+   font-family: "Oswald", arial, sans-serif;}
+  #services{color:orange;
+   font-family: "Oswald", arial, sans-serif;}
+  #serweb{color:orange; font-family: "Oswald", arial, sans-serif;}
+  #servmobapp{color:orange;
+   font-family: "Oswald", arial, sans-serif;}
+  #navlowercolor{color:#999999;
+  }
+ blockquote{  color:#999999 ;
+   font-family: "Oswald", arial, sans-serif;
+   font-size:25px;}
+}
+</style>
+</head>
+<body>
+<div id="addtxt">
+  <!-- nav bar links  -->
+<nav class="navbar navbar-default">
+    <div class="container">
+       <div class="navbar-header">
+           <a class="navbar-brand text-uppercase mb-4 mt-4 font-weight-bold" id="navbrand" href="#">TEMPLATE</a>
+         </div>
+          <ul class="nav">
+            <li class="nav-link"><a id="home" class="nav-item  font-weight-bold" href="#" >Home</a></li>
+            <li class="nav-link"><a id="blog" class="nav-item  font-weight-bold" href="#">Blog</a></li>
+            <li  class="nav-link"><a id="polio" class="nav-item  font-weight-bold" href="#">Portfolio</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle mr-3 font-weight-bold" href="#" id ="services" role="button" data-toggle="dropdown">
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a id="serweb" class="dropdown-item  font-weight-bold" href="#">Web Development</a>
+                <a  id="servmobapp" class="dropdown-item mr-3 font-weight-bold" href="#">Mobile App Development</a>
+                </div>
+            </li>
+            <li  class="nav-link"><a id="contact" class="nav-item  font-weight-bold" href="#">Contact</a></li>
+            <li  class="nav-link"><a id="about" class="nav-item font-weight-bold" href="#">About</a></li>
+         
+          </ul>
+           
+     </div>
+</nav>
+    <div class="container">
+      <div class=" card card-outline-secondary">
+                           <div class="card-header">
+                            <h3 class="mb-0 font-weight-bold ">CONTACT US</h3>
+                        </div>
+                        <div class="card-body">
+                          
+                                <form  method="post" action="registercontact.php" enctype="multipart/form-data">
+                                  <fieldset>
+                                    <label  class="mb-0 mt-2  font-weight-bold">Name</label>
+                                    <div class="row mb-1">
+                                        <div class="col-lg-12">
+                                            <input type="text"  name="name" class="form-control mt-3" required="">
+                                        </div>
+                                    </div>
+                                    <label class="mb-0 mt-2  font-weight-bold">Email</label>
+                                    <div class="row mb-1">
+                                        <div class="col-lg-12">
+                                            <input type="text" name="email"  class="form-control mt-3" required="">
+                                        </div>
+                                    </div>
+                                    <label for="message2" class="mb-0 mt-2  font-weight-bold">Message</label>
+                                    <div class="row mb-1">
+                                        <div class="col-lg-12">
+                                            <textarea rows="4"  name="message" class="form-control mt-3" required=""></textarea>
+                                        </div>
+                                    </div>
+                                     <input type="file" name="file" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf" >
+                                    
+                                                                                
+                                    <button type="submit" class="btn btn-warning text-white mt-5 btn-lg float-right">Send Message</button>
+                                  </fieldset>
+                                </form>
+                                
+                                <div class="row mt-5">
+                                  <div class="col">
+                                  </div>
+                                  <div class="col">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3745962791954!2d77.37044151455929!3d28.61853309146644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce55c27929add%3A0xadcafd8914259690!2sFortis%20Hospital%2C%20Noida!5e0!3m2!1sen!2sin!4v1573540587844!5m2!1sen!2sin" width="400" height="300" id="maps" frameborder="0"  style="border:0;" allowfullscreen=""></iframe>
+                                  </div>
+                                  <div class="col">
+                                  </div>
+                                </div>
+                                
+                              
+
+           </div>
+         </div>
+       </div>
+      <!-- last info  -->
+        <div class="container-fluid " id="black">
+        <div class="row">
+         <div class="col">
+          <h4>ABOUT US</h4>
+             <p class="ml-0 mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cup</p>
+         </div>
+         <div class="col">
+          <h4 class="text-center">QUICK MENU</h4>
+           <ul class="nav flex-column ml-5" id="movenav">
+          <li class="nav-item ml-5">
+            <a class="nav-link ml-4 " id="navlowercolor" href="#">Features</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link ml-4" id="navlowercolor" href="#">services</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link ml-4" id="navlowercolor" href="#">Setting</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link ml-4 " id="navlowercolor" href="#">Extras</a>
+          </li>
+        </ul>
+         </div>
+        
+         <div class="col">
+          <h4>SUBSCRIBE </h4>
+          <div class="input-group mt-4">
+            <input type="text" class="border-secondary form-control " placeholder="Enter Email" >
+             <div class="input-group-append"></div>
+          <button class="btn btn-warning text-white mr-5" type="button" id="button-addon2">Subscribe</button>
+           </div>
+        </div>   
+      </div>
+    </div>
+
+</div>
+</body>
+</html>
+<script>
+$(document).ready(function(){
+$("#home").click(function(){
+   $.ajax({    
+        type: "POST",
+        url: "home.html",
+         dataType: "html",
+          
+          
+        success: function(data){  
+          
+          $("#addtxt").html(data);
+        }
+      });
+ });
+});
+
+$("#blog").click(function(){
+   $.ajax({    
+        type: "POST",
+        url: "blog.html",
+         dataType: "html",
+          
+       
+        success: function(data){  
+          $("#addtxt").html(data);
+        }
+      });
+ });
+   
+$("#polio").click(function(){
+   $.ajax({    
+        type: "POST",
+        url: "portfolio.html",
+         dataType: "html",
+          
+         
+        success: function(data){  
+          $("#addtxt").html(data);
+        }
+      });
+ });         
+              
+
+$("#serweb").click(function(){
+   $.ajax({    
+        type: "POST",
+        url: "webservice.html",
+         dataType: "html",
+          
+      
+        success: function(data){  
+          $("#addtxt").html(data);
+        }
+      });
+ });
+  
+$("#servmobapp").click(function(){
+   $.ajax({    
+        type: "POST",
+        url: "mobservice.html",
+         
+          
+        dataType: "html",   
+        success: function(data){  
+          $("#addtxt").html(data);
+        }
+      });
+ });
+$("#contact").click(function(){
+   $.ajax({    
+        type: "POST",
+        url: "contact.html",
+         
+          
+        dataType: "html",   
+        success: function(data){  
+          $("#addtxt").html(data);
+        }
+      });
+ });
+$("#about").click(function(){
+   $.ajax({    
+        type: "POST",
+        url: "abouttemplate.html",
+         dataType: "html",
+          
+          
+        success: function(data){  
+          $("#addtxt").html(data);
+        }
+      });
+ });
+
+</script>
